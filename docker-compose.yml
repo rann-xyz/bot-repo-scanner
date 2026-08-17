@@ -1,9 +1,0 @@
-services:
-  ai-repo-radar:
-    build: .
-    container_name: ai-repo-radar
-    restart: unless-stopped
-    env_file:
-      - .env
-    volumes:
-      - ./data:/app/data
